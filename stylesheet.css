@@ -1,0 +1,126 @@
+body {
+    background-color: wheat;
+    padding: 4%
+}
+
+nav {
+    overflow: hidden; /* Ensures the navbar items are contained properly */
+  }
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+img {
+    width: 100%;
+}
+
+label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+form {
+    text-align: left;
+    padding: 2%;
+}
+
+.navbar {
+    background-color: white;
+    float: left;
+    display: block; 
+    color: black;
+    text-align: center; 
+    padding: 2% 3%; 
+    border-color: wheat;
+    border-style: solid;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.navbar.active {
+    float: left;
+    background-color: #000;
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 2% 3%; 
+}
+
+.subpage {
+    background-color: #FFF;
+    border-color: wheat;
+    border-style: solid;
+    text-align: center;
+    font-family: Tahoma;
+    padding: 2%;
+}
+
+#name {
+    padding: 6%;
+    font-size: 3.5em;
+}
+
+#about {
+    text-align: center; 
+    margin: 0 auto; 
+    word-wrap: break-word; 
+    padding: 2%;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.25em;
+}
+
+.hstack {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.vstack {
+    display: flex;            
+    flex-direction: column;   
+    align-items: center;     
+    margin: 0 auto;       
+    width: 85%;             
+    border-color: wheat;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.experience-box {
+    text-align: left;
+    padding: 3%;
+    width: 30%;
+    margin: 4%;
+    border-style: solid;
+    border-color: wheat;
+    border-width: 10px;
+}
+
+.learn-more{
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    font-weight: bold;
+    margin: 10%;
+}
+
+.learn-more:hover {
+    background-color: #D3D3D3;
+    color: #FFF;
+}
+
+.form-elmt{
+    padding: 0.5%;
+}
